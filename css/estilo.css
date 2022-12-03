@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
   }
-  .rotate {
+  .text_ppal .rotate {
     transform: rotate 360deg;
   }
   .pedicuria .facial .lifting .alisado {

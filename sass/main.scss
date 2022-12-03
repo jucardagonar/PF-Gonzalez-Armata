@@ -37,10 +37,11 @@ body {
         color: variable.$color-text-ppal;
         display: flex;
         justify-content: center;
-    }
+    
         .rotate {
         transform: rotate (360deg);
     }
+}
  @mixin PropiedadesImg {
             margin: 80px;
             padding-left: 30px;
