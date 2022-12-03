@@ -1,0 +1,260 @@
+/* MOBILE FIRST */
+body {
+  background-color: pink;
+}
+body nav {
+  background-image: url(../img/nails.jpg);
+  background-position: center;
+  margin-top: auto;
+}
+body nav h3 {
+  color: black;
+  font-family: "Gochi Hand", cursive;
+  font-size: 180%;
+  margin-top: auto;
+  text-align: center;
+}
+body nav img {
+  width: 100px;
+  right: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+body .text_ppal {
+  font-family: "Gochi Hand", cursive;
+  font-size: 300%;
+  color: magenta;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+body .pedicuria .facial {
+  margin: 80px;
+  padding-left: 30px;
+  border-radius: 50px;
+  width: 300px;
+  right: 300px;
+}
+body .lifting {
+  margin: 75px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 300px;
+  right: 300px;
+}
+body .alisado {
+  margin: 40px;
+  padding: 30px;
+  border-radius: 50px;
+  width: 300px;
+  right: 300px;
+}
+body #carouselExampleControlsNoTouchin {
+  padding-left: 100px;
+}
+body #carouselExampleFade {
+  padding-left: 0px;
+}
+body #carouselExampleControls {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+body .text_pedicuria, body .text_facial, body .text_lifting, body .text_alisado {
+  text-align: center;
+  font-family: "Gochi Hand", cursive;
+}
+body .text_carrusel {
+  font-family: "Gochi Hand", cursive;
+  font-size: 40px;
+  padding-left: 10px;
+  text-align: center;
+}
+body .turno {
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  padding: 50px;
+  background-color: rgba(255, 0, 106, 0.61);
+  text-align: center;
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+  font-size: 120%;
+  background-color: rgb(255, 0, 76);
+  margin-top: 500px;
+}
+body footer .ig {
+  width: 30px;
+  right: 30px;
+}
+body footer a {
+  color: white;
+}
+body form {
+  width: 250px;
+  background-image: url(../img/background_3.webp);
+  border-bottom: 20px;
+  border-radius: 20px;
+}
+body form input {
+  width: 100%;
+}
+
+/* TABLETAS */
+@media (min-width: 768px) {
+  #carouselExampleFade {
+    padding-left: 0px;
+  }
+  h2 {
+    text-align: center;
+  }
+  #carouselExampleControlsNoTouchin {
+    padding-left: 100px;
+    width: 200px;
+    right: 200px;
+  }
+  .text_carrusel {
+    font-family: "Gochi Hand", cursive;
+    font-size: 40px;
+    padding-left: 250px;
+  }
+  b {
+    padding-left: 270px;
+  }
+  .turno {
+    font-family: "Gochi Hand", cursive;
+    font-size: 40px;
+    padding: 120px;
+    background-color: rgba(255, 0, 106, 0.61);
+  }
+  form {
+    width: 800px;
+    margin: 50px;
+    background-image: url(../img/background_3.webp);
+    border-bottom: 20px;
+    border-radius: 20px;
+  }
+  form input {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 500px;
+    font-size: 120%;
+    background-color: rgb(255, 0, 76);
+  }
+  footer .ig {
+    width: 30px;
+    right: 30px;
+  }
+  footer a {
+    color: white;
+  }
+  .pedicuria, .facial {
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 50px;
+    padding-left: 100px;
+  }
+  .alisado {
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 20px;
+    padding-left: 100px;
+  }
+  .lifting {
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 20px;
+    padding-left: 150px;
+  }
+}
+/* DESKTOP*/
+@media (min-width: 1024px) {
+  body {
+    background-image: url(../img/background_body.webp);
+    background-position: fixed;
+  }
+  nav {
+    background-image: url(../img/nails.jpg);
+    background-position: center;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .pedicuria, .facial {
+    border-radius: 50px;
+    width: 600px;
+    right: 600px;
+    padding-left: 100px;
+  }
+  .text_carrusel {
+    font-family: "Gochi Hand", cursive;
+    font-size: 50px;
+  }
+  .lifting {
+    margin: 75px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 400px;
+    right: 400px;
+  }
+  .alisado {
+    margin: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 400px;
+    right: 400px;
+  }
+  .tamanio_img {
+    width: 300px;
+    right: 300px;
+    padding: 200px;
+  }
+  .turno {
+    font-family: "Gochi Hand", cursive;
+    font-size: 40px;
+    color: white;
+    padding: 100px;
+    background-color: rgba(255, 0, 106, 0.61);
+    text-align: center;
+    margin-top: 80px;
+  }
+  b {
+    padding-left: 490px;
+  }
+  form {
+    width: 900px;
+    margin: auto;
+    background-image: url(../img/background_3.webp);
+    border-bottom: 10px;
+    border-radius: 10px;
+  }
+  form input {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 350px;
+    font-size: 120%;
+    background-color: rgb(255, 0, 76);
+  }
+  footer .ig {
+    width: 30px;
+    right: 30px;
+  }
+  footer a {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=css.estilo.css.map */
